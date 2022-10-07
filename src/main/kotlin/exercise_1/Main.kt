@@ -35,33 +35,26 @@ fun main(args: Array<String>) {
     age()
 
 }
-/*
+
 fun Education(){
     println("How many schools were you in: ")
-    var schools:Int = readlnOrNull()!!.toInt()
-    var i:Int = 0
+    var schoolName:String = ""
+    var schoolLocation:String = ""
+    var yearsAttended:String = ""
+    var degreeReceived:String = ""
+    var maJor:String = ""
 
-    while (i<=schools) {
-        println("Enter your School Name: ");
-        var schoolName: String = readln()
-        println("Enter your Location: ");
-        var schoolLocation: String = readln()
-        println("Years Attended: ")
-        var schoolYears: String = readln()
-        println("Degree Attended: ")
-        var degree: String = readln()
-        println("Major in: ")
-        var major: String = readln()
-        i++
-    }}*/
 
-fun age(){
+
+}
+
+fun age() {
 
     val aGe: Int
 
     aGe = 19
     println("Age: $aGe ")
-    when(aGe){
+    when (aGe) {
 
         in 1..17 -> println("You are under age! You are not allowed to work ")
         in 18..60 -> println("You are allowed to work!")
@@ -69,13 +62,8 @@ fun age(){
         else -> println("Incorrect Input")
 
     }
+
 }
-
-
-
-
-
-
 
 
 
