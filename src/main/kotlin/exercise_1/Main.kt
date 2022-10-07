@@ -57,19 +57,19 @@ fun Education(){
 
 fun age(){
 
-    var a:Int = 19
-    var agE:String
-    if(a >= 18){
-        agE = "Allowed"
+    val aGe: Int
+
+    aGe = 19
+    println("Age: $aGe ")
+    when(aGe){
+
+        in 1..17 -> println("You are under age! You are not allowed to work ")
+        in 18..60 -> println("You are allowed to work!")
+        in 60..65 -> println("You are overage! Not allowed to work")
+        else -> println("Incorrect Input")
+
     }
-    else{
-        agE = "Not Allowed"
-    }
-    println("\nYour age $a is $agE to work here")
 }
-
-
-
 
 
 
