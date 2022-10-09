@@ -1,9 +1,11 @@
 package exercise_1
-
 import java.io.File
+import java.time.LocalDateTime
+
 
 
 fun main(){
+    var current = LocalDateTime.now()
     var studentSectCourse:String = ""
     var studentFirstName:String = "" ;     var studentLastName:String = "" ;     var studentMiddleName:String = ""
     var studentsName:String = ("$studentFirstName $studentMiddleName $studentLastName")
