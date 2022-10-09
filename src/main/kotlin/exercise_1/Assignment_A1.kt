@@ -55,10 +55,11 @@ fun studentFiles(){
 }
 
 fun studentGrades(){
-    var studentAssignmentsGrades:Float= 00.0F
-    var studentActivitiesGrades:Float = 00.0F
-    var studentQuizzes:Float = 00.0F
-    var studentFinalGrades:Float = 00.0F
+    var studentAssignmentsGrades:Int ?= null
+    var studentActivitiesGrades:Int ?= null
+    var studentQuizzes:Int ?= null
+    var result1:Double = (studentQuizzes!!.times(0.30)) + (studentActivitiesGrades!!.times(0.40)) + (studentAssignmentsGrades!!.times(0.30))
+    var studentFinalGrades:Double = result1
 
     if (studentFinalGrades >= 75) { println("The student Pass the Academic ") }
     else{ println("The student did not pass") }

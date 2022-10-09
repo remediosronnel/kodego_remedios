@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53e45f81-d153-4997-8083-8328843cca7a" name="Changes" comment="added exercise 1 package&#10;added Main.kt in exercise_1">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercise_1/Assignment_A2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercise_1/Assignment_A3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercise_1/Assignment_A1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercise_1/Assignment_A1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Assignment_A2Kt">
+  <component name="RunManager" selected="Kotlin.Assignment_A1Kt">
     <configuration name="Assignment_A1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise_1.Assignment_A1Kt" />
       <module name="KodeGoExercises_Remedios1.main" />
@@ -70,8 +70,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Assignment_A2Kt" />
         <item itemvalue="Kotlin.Assignment_A1Kt" />
+        <item itemvalue="Kotlin.Assignment_A2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665274531734</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added exercise 1 package&#10;added Main.kt in exercise_1">
+      <created>1665281934331</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665281934331</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
