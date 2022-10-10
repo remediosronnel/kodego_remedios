@@ -1,7 +1,8 @@
 package exercise_1
-
-
 import java.time.*
+
+
+
 
 fun main() {
 
@@ -36,11 +37,11 @@ fun main() {
     }
 
     bookReturn()
+    bookStatus(bookTitle, authorName, bookSubject)
 }
 
 fun bookReturn(){
-    var period = Period.of(0, 0, 3)
-    var todayDate = LocalDate.of(2022, 10, 9)
+    var period = Period.of(0, 0, 3) ; var todayDate = LocalDate.of(2022, 10, 9)
     var modifiedDate = todayDate.plus(period)
 
     if(LocalDate.now() >= modifiedDate){
@@ -49,6 +50,17 @@ fun bookReturn(){
     else{
         println("Please continue reading")
     }
+
+
+}
+
+fun bookStatus(bookTitle:String, authorName:String, bookSubject:String){
+
+    var nameOfBook:String = bookTitle
+       var subjectBook = arrayOf("Math", "Biology", "Social Science", "English 101", "Philippine Literature")
+        var subjectBoolean1 = arrayOf(true, false, true, true, false)
+
+
 
 
 

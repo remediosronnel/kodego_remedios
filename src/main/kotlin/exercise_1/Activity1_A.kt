@@ -17,11 +17,10 @@ fun main(){
     var cellphoneNumber:Long = 0
     var emailAddress:String = ""
     var parentsName:String = ""
-    var parentsContact:Long = 0
+    var parentsContactCP:Long = 0
     studentAge()
     studentFiles()
     studentGrades()
-
 }
 
 fun studentAge(){
