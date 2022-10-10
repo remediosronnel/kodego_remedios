@@ -2,7 +2,6 @@ package exercise_1
 
 
 import java.time.*
-import java.time.format.DateTimeFormatter.*
 
 fun main() {
 

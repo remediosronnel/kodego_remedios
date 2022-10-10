@@ -1,9 +1,6 @@
 package exercise_1
 
-import com.sun.jdi.FloatType
-import java.text.DateFormat
 import java.time.LocalDate
-import java.time.LocalDateTime
 import java.time.Period
 import java.util.Date
     val listOfItem:MutableList<String> = mutableListOf("Beverages, Bread/Bakery, Canned/Jarred Goods, Dairy," +
