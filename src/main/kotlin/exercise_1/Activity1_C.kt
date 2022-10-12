@@ -154,17 +154,17 @@ fun itemNumberProcess(itemNumber:Int, itemName: String, quantityOfItem:Int){
 
 
     when(itemName){
-        listahanSaItem[0] -> priceEachBeverage[0] * itemTotal
-        listahanSaItem[1] -> priceEachBeverage[1] * itemTotal
-        listahanSaItem[2] -> print("$priceEachBeverage[2] * $itemTotal")
-        listahanSaItem[3] -> print("$priceEachBeverage[3] * $itemTotal")
-        listahanSaItem[4] -> print("$priceEachBeverage[4] * $itemTotal")
-        listahanSaItem[5] -> print("$priceEachBeverage[5] * $itemTotal")
-        listahanSaItem[6] -> print("$priceEachBeverage[6] * $itemTotal")
-        listahanSaItem[7] -> print("$priceEachBeverage[7] * $itemTotal")
-        listahanSaItem[8] -> print("$priceEachBeverage[8] * $itemTotal")
-        listahanSaItem[9] -> print("$priceEachBeverage[9] * $itemTotal")
-        listahanSaItem[10] -> print("$priceEachBeverage[10] * $itemTotal")
+//        listahanSaItem[0] -> priceEachBeverage[0] * itemTotal
+//        listahanSaItem[1] -> priceEachBeverage[1] * itemTotal
+//        listahanSaItem[2] -> print("$priceEachBeverage[2] * $itemTotal")
+//        listahanSaItem[3] -> print("$priceEachBeverage[3] * $itemTotal")
+//        listahanSaItem[4] -> print("$priceEachBeverage[4] * $itemTotal")
+//        listahanSaItem[5] -> print("$priceEachBeverage[5] * $itemTotal")
+//        listahanSaItem[6] -> print("$priceEachBeverage[6] * $itemTotal")
+//        listahanSaItem[7] -> print("$priceEachBeverage[7] * $itemTotal")
+//        listahanSaItem[8] -> print("$priceEachBeverage[8] * $itemTotal")
+//        listahanSaItem[9] -> print("$priceEachBeverage[9] * $itemTotal")
+//        listahanSaItem[10] -> print("$priceEachBeverage[10] * $itemTotal")
 
    }
 
