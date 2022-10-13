@@ -23,12 +23,12 @@ fun main(args: Array<String>) {
     var citizen:String ?= ""
     var felony:String ?= ""
     var preEmployment:String ?= ""
-
+    var aGe:Int = 0
     var a = "$lastName $firstName $middleName"
     val b = "\n $Address, $ciTy, $stAte, $zIp"
     val c = "\n$homePhone $cellPhone $emailAddress $ssNumber $citizen $felony $preEmployment"
 
-    age()
+    age(aGe)
     Education()
 }
 
@@ -40,11 +40,10 @@ fun Education(){
     var maJor:String = ""
 }
 
-fun age() {
+fun age(aGe:Int) {
 
-    val aGe: Int
 
-    aGe = 19
+
     println("Age: $aGe ")
     when (aGe) {
 
