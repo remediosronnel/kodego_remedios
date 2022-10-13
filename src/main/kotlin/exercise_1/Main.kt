@@ -1,8 +1,6 @@
 package exercise_1
 
 
-
-
 fun main(args: Array<String>) {
     var poSition: String = ""
     var desiredSalary:Double
@@ -17,12 +15,11 @@ fun main(args: Array<String>) {
     var Address:String = ""
     var ciTy:String = ""
     var stAte:String = ""
-    var zIp:Int = 8965
-
+    var zIp:Int ?= null
     var homePhone:String?= ""
     var cellPhone:String?= ""
     var emailAddress:String= ""
-    var ssNumber:String= ""
+    var ssNumber:String ?= ""
     var citizen:String ?= ""
     var felony:String ?= ""
     var preEmployment:String ?= ""
@@ -37,7 +34,6 @@ fun main(args: Array<String>) {
 }
 
 fun Education(){
-    println("How many schools were you in: ")
     var schoolName:String = ""
     var schoolLocation:String = ""
     var yearsAttended:String = ""
