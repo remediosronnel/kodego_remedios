@@ -28,8 +28,7 @@ fun main() {
 
 }
 
-//******Another Version - UGA ANG UTOK!!!*******
-//
+//******Another Version - UGA ANG UTOK!!!*******/ Huwag po!/
 //fun main() {
 //
 //    try {

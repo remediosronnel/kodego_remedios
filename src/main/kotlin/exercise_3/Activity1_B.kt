@@ -17,11 +17,11 @@ fun main() {
 
 //    Book Information
     var bookIDNumber: Int? = null
-    var bookSubject: String = ""
-    var bookTitle: String = ""
-    var authorName: String = ""
-    var nameOfPublisher: String = ""
-    var copyRightfortheBook: String = ""
+    var bookSubject: String ?= null
+    var bookTitle: String ?= null
+    var authorName: String ?= null
+    var nameOfPublisher: String ?= null
+    var copyRightfortheBook: String ?= null
     var editionNumber: Int? = null
     var isbnofBook: Int? = null
     var shelfNumberBook: Int? = null
