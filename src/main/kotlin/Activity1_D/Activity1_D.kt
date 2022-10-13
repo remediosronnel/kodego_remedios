@@ -10,7 +10,6 @@ fun main() {
 
     println("Enter 5 Monetary Amounts")
     var numbersIn = 1..100000000000000000
-    var letterS:CharRange = ('A'..'z')
     var amount1:Int = readln().toInt()
     var amount2:Int = readln().toInt()
     var amount3:Int = readln().toInt()
