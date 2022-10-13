@@ -40,8 +40,6 @@ fun main() {
 
 }
 
-
-
 fun expirationOfItem(){
 
     if ( listOfItem == beverageProduct ){
@@ -125,7 +123,6 @@ fun expirationOfItem(){
         else{ println("Nothing Expires!!!")   } }
 
 }
-
 
 fun priceProduct(itemName:String){
 
