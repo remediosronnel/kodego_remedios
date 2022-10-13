@@ -6,18 +6,16 @@ import java.time.LocalDateTime
 
 fun main(){
     var current = LocalDateTime.now()
-    var studentSectCourse:String = ""
-    var studentFirstName:String = "" ;     var studentLastName:String = "" ;     var studentMiddleName:String = ""
-    var studentsName:String = ("$studentFirstName $studentMiddleName $studentLastName")
-
-    var studentStreetName:String = ""; var studentBarangayName:String = "";  var studentMunicipalityCity:String = ""
-    var studentRegion:String = "" ; var studentCountry:String = ""
-
-    var studentLocation:String = ("$studentStreetName, $studentBarangayName, $studentMunicipalityCity, $studentRegion, $studentCountry")
-    var cellphoneNumber:Long = 0
-    var emailAddress:String = ""
-    var parentsName:String = ""
-    var parentsContactCP:Long = 0
+    var studentSectCourse:String? = ""
+    var studentFirstName:String ?= "" ;     var studentLastName:String = "" ;     var studentMiddleName:String = ""
+    var studentsName:String ?= ("$studentFirstName $studentMiddleName $studentLastName")
+    var studentStreetName:String ?= ""; var studentBarangayName:String = "";  var studentMunicipalityCity:String = ""
+    var studentRegion:String ?= "" ; var studentCountry:String = ""
+    var studentLocation:String ?= ("$studentStreetName, $studentBarangayName, $studentMunicipalityCity, $studentRegion, $studentCountry")
+    var cellphoneNumber:Long ?= 0
+    var emailAddress:String ?= ""
+    var parentsName:String ?= ""
+    var parentsContactCP:Long ?= 0
     studentAge()
     studentFiles()
     studentGrades()
