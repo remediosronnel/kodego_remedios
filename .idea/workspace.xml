@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53e45f81-d153-4997-8083-8328843cca7a" name="Changes" comment="added exercise 1 package&#10;added Main.kt in exercise_1">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Activity1_A/Activity1_A.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Activity1_A/Activity1_A.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercise_1/Activity1_A.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercise_1/Activity1_A.kt" afterDir="false" />
-    </list>
+    <list default="true" id="53e45f81-d153-4997-8083-8328843cca7a" name="Changes" comment="added exercise 1 package&#10;added Main.kt in exercise_1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,9 +25,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/kotlin/exercise_1/Activity1_B.kt" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -254,7 +248,35 @@
       <option name="project" value="LOCAL" />
       <updated>1665659530610</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added exercise 1 package&#10;added Main.kt in exercise_1">
+      <created>1665659678240</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1665659678240</updated>
+    </task>
+    <task id="LOCAL-00024" summary="added exercise 1 package&#10;added Main.kt in exercise_1">
+      <created>1665659705752</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1665659705752</updated>
+    </task>
+    <task id="LOCAL-00025" summary="added exercise 1 package&#10;added Main.kt in exercise_1">
+      <created>1665659798856</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1665659798856</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added exercise 1 package&#10;added Main.kt in exercise_1">
+      <created>1665659972196</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1665659972196</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
