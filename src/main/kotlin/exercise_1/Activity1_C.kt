@@ -3,15 +3,22 @@ package exercise_1
 import java.time.LocalDate
 import java.time.Period
 import java.util.Date
+import java.lang.Double.parseDouble
+import java.util.HashMap
+import java.util.*
 
-
+//You are tasked to automate an inventory system for a grocery.
+//Identify the items that can be bought in a grocery store.
+//After listing the different items, identify the characteristics of the items.
+//You are also tasked to group the items in categories to help manage the grocery.  Use the proper data types.
 
 
 var listOfItem:MutableList<String> = mutableListOf("Beverages, Bread/Bakery, Canned/Jarred Goods, Dairy," +
             " Dry/Baking Goods, Frozen Foods, Meat, Fruits/Vegerables, Cleaners, Office Goods, Personal Care, Others")
 
 val beverageProduct = arrayOf("Water" , "Coffee", "Milk", "Juice", "Softdrink", "Tea", "Beer", "Wine", "Tanduay", "Emperador", "Gin")
-var priceBeverage = arrayOf("P15", "P10","P25", "P20", "P35", "P18", "P55", "68", "37", "49", "P140")
+var priceBeverage:Array<Long> = arrayOf(15, 10, 25, 20, 35, 18, 55, 68, 37, 49, 140)
+
 
 var breadBakeryProduct = arrayOf("Whole Wheat, Cookies, Tortillas, Pies, Muffins, Bagels, Cake, Cheese Rolls ")
 var cannedJarredGoods = arrayOf("Olives, Soup, Sika Tuna, Blue Bay Tuna, Corned Beef, Fruit Cocktail, Fried Sardines")
@@ -24,7 +31,7 @@ var fruitsVegetables = arrayListOf<String>("Banana, Apple, Grapes, Oranges, Stra
 var cleanerItems = arrayListOf<String>("Zonrox, Ariel, Pride, Bar Soaps, Chlorine")
 
 
-fun main(args: Array<String>) {
+fun main() {
 
 
     var itemNumber: Int = 0
@@ -36,7 +43,7 @@ fun main(args: Array<String>) {
 
     expirationOfItem()
     priceProduct(itemName)
-    itemNumberProcess(itemNumber, itemName, quantityOfItem)
+    itemNumberProcess(itemNumber, itemName, quantityOfItem, priceBeverage)
 
 }
 
@@ -142,35 +149,39 @@ fun priceProduct(itemName:String){
     }
 
 }
-fun itemNumberProcess(itemNumber:Int, itemName: String, quantityOfItem:Int){
-    var listahanSaItem = arrayListOf(beverageProduct)
-    var priceEachBeverage = arrayListOf(priceBeverage)
+fun itemNumberProcess(itemNumber:Int, itemName: String, quantityOfItem:Int, priceBeverage:Array<Long>) {
+    var listahanSaItem = arrayListOf(beverageProduct).toString()
 
-       print(itemNumber)
-        var itemName = itemName
-        var itemTotal:Int ?= quantityOfItem
-        var itemSold:Int ?= 3500
-        var itemRemains = itemTotal!!.minus(itemSold!!).toInt()
+    var priceEachBeverage = arrayOf(priceBeverage)
 
+    print(itemNumber)
+    var itemName1 = itemName
+    var itemTotal: Int = quantityOfItem
+    var itemSold: Int = 3500
+    var itemRemains = itemTotal!!.minus(itemSold!!).toInt()
+    var result:Long = 0
+    var priceBeverageLong:Array<Long> = priceBeverage
 
-    when(itemName){
-//        listahanSaItem[0] -> priceEachBeverage[0] * itemTotal
-//        listahanSaItem[1] -> priceEachBeverage[1] * itemTotal
-//        listahanSaItem[2] -> print("$priceEachBeverage[2] * $itemTotal")
-//        listahanSaItem[3] -> print("$priceEachBeverage[3] * $itemTotal")
-//        listahanSaItem[4] -> print("$priceEachBeverage[4] * $itemTotal")
-//        listahanSaItem[5] -> print("$priceEachBeverage[5] * $itemTotal")
-//        listahanSaItem[6] -> print("$priceEachBeverage[6] * $itemTotal")
-//        listahanSaItem[7] -> print("$priceEachBeverage[7] * $itemTotal")
-//        listahanSaItem[8] -> print("$priceEachBeverage[8] * $itemTotal")
-//        listahanSaItem[9] -> print("$priceEachBeverage[9] * $itemTotal")
-//        listahanSaItem[10] -> print("$priceEachBeverage[10] * $itemTotal")
+//    Predict the product remaining in cost
+    when (itemName1) {
+        listahanSaItem[0].toString() -> result = (priceBeverageLong[0] * itemRemains)
+        listahanSaItem[1].toString() -> result = (priceBeverageLong[1] * itemRemains)
+        listahanSaItem[2].toString() -> result = (priceBeverageLong[2] * itemRemains)
+        listahanSaItem[3].toString() -> result = (priceBeverageLong[3] * itemRemains)
+        listahanSaItem[4].toString() -> result = (priceBeverageLong[4] * itemRemains)
+        listahanSaItem[5].toString() -> result = (priceBeverageLong[5] * itemRemains)
+        listahanSaItem[6].toString() -> result = (priceBeverageLong[6] * itemRemains)
+        listahanSaItem[7].toString() -> result = (priceBeverageLong[7] * itemRemains)
+        listahanSaItem[8].toString() -> result = (priceBeverageLong[8] * itemRemains)
+        listahanSaItem[9].toString() -> result = (priceBeverageLong[9] * itemRemains)
+        listahanSaItem[10].toString() -> result = (priceBeverageLong[10] * itemRemains)
 
-   }
-
-
+        }
+    println(result)
 
 }
+
+
 
 
 
