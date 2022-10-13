@@ -2,9 +2,9 @@ package exercise_1
 
 
 fun main(args: Array<String>) {
-    var poSition: String = ""
+    var poSition: String ?= ""
     var desiredSalary:Double
-    var dateAvailable:String = ""
+    var dateAvailable:String ?= ""
 
 
 //PERSONAL INFORMATION
