@@ -5,7 +5,7 @@ package exercise_1
 
 fun main(args: Array<String>) {
     var poSition: String = ""
-    var desiredSalary:String = ""
+    var desiredSalary:Double
     var dateAvailable:String = ""
 
 
@@ -31,9 +31,7 @@ fun main(args: Array<String>) {
     val b = "\n $Address, $ciTy, $stAte, $zIp"
     val c = "\n$homePhone $cellPhone $emailAddress $ssNumber $citizen $felony $preEmployment"
 
-    println(a)
-    println(b)
-    println(c)
+
     age()
     Education()
 }
