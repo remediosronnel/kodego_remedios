@@ -1,4 +1,4 @@
-package Activity1_A
+package exercise_2
 
 import java.io.File
 import java.time.LocalDateTime

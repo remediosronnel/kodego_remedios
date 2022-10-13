@@ -1,4 +1,4 @@
-package Activity1_B
+package exercise_3
 
 import java.time.*
 
