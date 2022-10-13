@@ -1,20 +1,13 @@
-package exercise_1
+package Activity1_C
 
 import java.time.LocalDate
 import java.time.Period
 import java.util.Date
-import java.lang.Double.parseDouble
-import java.util.HashMap
-import java.util.*
 
-//You are tasked to automate an inventory system for a grocery.
-//Identify the items that can be bought in a grocery store.
-//After listing the different items, identify the characteristics of the items.
-//You are also tasked to group the items in categories to help manage the grocery.  Use the proper data types.
 
 
 var listOfItem:MutableList<String> = mutableListOf("Beverages, Bread/Bakery, Canned/Jarred Goods, Dairy," +
-            " Dry/Baking Goods, Frozen Foods, Meat, Fruits/Vegerables, Cleaners, Office Goods, Personal Care, Others")
+        " Dry/Baking Goods, Frozen Foods, Meat, Fruits/Vegerables, Cleaners, Office Goods, Personal Care, Others")
 
 val beverageProduct = arrayOf("Water" , "Coffee", "Milk", "Juice", "Softdrink", "Tea", "Beer", "Wine", "Tanduay", "Emperador", "Gin")
 var priceBeverage:Array<Long> = arrayOf(15, 10, 25, 20, 35, 18, 55, 68, 37, 49, 140)
@@ -27,7 +20,7 @@ var dryBakingGoods = arrayListOf<String>("Cereals, Flour, Sugar, Pasta, Mixes, S
 var frozenProducts = arrayListOf<String>("Fish, Ice Cream, Pizza, Ready Meals, Fruits, Vegetables, Waffles")
 var meatProduct = arrayListOf<String>("Beef, Pork, Chicken, Lamb, Sausage, Tocino")
 var fruitsVegetables = arrayListOf<String>("Banana, Apple, Grapes, Oranges, Strawberries, Avocados, Pineapples, Pears, Potatoes, tomatoes, Onions, Carrots, Lettuce, Broccoli, Peppers, Celery," +
-            "Garlic, Cucumber, Kangkong, Squash, Pechay, Hoarse-raddish leaves, Raddish")
+        "Garlic, Cucumber, Kangkong, Squash, Pechay, Hoarse-raddish leaves, Raddish")
 var cleanerItems = arrayListOf<String>("Zonrox, Ariel, Pride, Bar Soaps, Chlorine")
 
 
@@ -136,16 +129,16 @@ fun expirationOfItem(){
 
 fun priceProduct(itemName:String){
 
-  when (itemName){
-    beverageProduct[0]-> {println(priceBeverage[0])}
+    when (itemName){
+        beverageProduct[0]-> {println(priceBeverage[0])}
         beverageProduct[1]-> {println(priceBeverage[1])}
-            beverageProduct[2]-> {println(priceBeverage[2])}
-                beverageProduct[3]-> {println(priceBeverage[3])}
-                    beverageProduct[4]-> {println(priceBeverage[4])}
-                        beverageProduct[5]-> {println(priceBeverage[5])}
-                            beverageProduct[6]-> {println(priceBeverage[6])}
-                                 beverageProduct[7]-> {println(priceBeverage[7])}
-                                    beverageProduct[8]-> {println(priceBeverage[8])}
+        beverageProduct[2]-> {println(priceBeverage[2])}
+        beverageProduct[3]-> {println(priceBeverage[3])}
+        beverageProduct[4]-> {println(priceBeverage[4])}
+        beverageProduct[5]-> {println(priceBeverage[5])}
+        beverageProduct[6]-> {println(priceBeverage[6])}
+        beverageProduct[7]-> {println(priceBeverage[7])}
+        beverageProduct[8]-> {println(priceBeverage[8])}
     }
 
 }
@@ -176,7 +169,7 @@ fun itemNumberProcess(itemNumber:Int, itemName: String, quantityOfItem:Int, pric
         listahanSaItem[9].toString() -> result = (priceBeverageLong[9] * itemRemains)
         listahanSaItem[10].toString() -> result = (priceBeverageLong[10] * itemRemains)
 
-        }
+    }
     println(result)
 
 }

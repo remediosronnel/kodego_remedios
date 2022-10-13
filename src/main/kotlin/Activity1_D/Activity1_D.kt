@@ -1,4 +1,4 @@
-package exercise_1
+package Activity1_D
 
 
 
@@ -17,12 +17,12 @@ fun main() {
     var amount4:Int = readln().toInt()
     var amount5:Int = readln().toInt()
 
-        if ((amount1 and amount2 and amount3 and amount4 and amount5) in numbersIn)
+    if ((amount1 and amount2 and amount3 and amount4 and amount5) in numbersIn)
     {
         var quotientNumber = amount1!!.div(5).toFloat()
-           print("Result: " + quotientNumber)
+        print("Result: " + quotientNumber)
     }
-        else {
+    else {
         println("Wrong Input")
     }
 
