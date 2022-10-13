@@ -21,6 +21,7 @@ fun main() {
         var quotientNumber = amount1!!.div(5).toFloat()
         print("Result: " + quotientNumber)
     }
+
     else {
         println("Wrong Input")
     }
