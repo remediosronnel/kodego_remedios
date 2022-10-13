@@ -12,13 +12,13 @@ fun main(args: Array<String>) {
     var lastName:String = ""
     var firstName:String = ""
     var middleName:String = ""
-    var Address:String = ""
-    var ciTy:String = ""
-    var stAte:String = ""
+    var Address:String ?= ""
+    var ciTy:String ?= ""
+    var stAte:String ?= ""
     var zIp:Int ?= null
     var homePhone:String?= ""
     var cellPhone:String?= ""
-    var emailAddress:String= ""
+    var emailAddress:String ?= ""
     var ssNumber:String ?= ""
     var citizen:String ?= ""
     var felony:String ?= ""
@@ -41,8 +41,6 @@ fun Education(){
 }
 
 fun age(aGe:Int) {
-
-
 
     println("Age: $aGe ")
     when (aGe) {
