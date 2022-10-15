@@ -9,7 +9,8 @@ fun main() {
 //    Note: Error checking must be done.
 
     println("Enter 5 Monetary Amounts")
-    var numbersIn = 1..100000000000000000
+    var numbersIn:IntRange = 1..100000000
+    var lettersIn:CharRange = 'A'..'z'
     var amount1:Int = readln().toInt()
     var amount2:Int = readln().toInt()
     var amount3:Int = readln().toInt()
@@ -18,7 +19,7 @@ fun main() {
 
     if ((amount1 and amount2 and amount3 and amount4 and amount5) in numbersIn)
     {
-        var quotientNumber = amount1!!.div(5).toFloat()
+        var quotientNumber = amount1.div(5).toFloat()
         print("Result: " + quotientNumber)
     }
 

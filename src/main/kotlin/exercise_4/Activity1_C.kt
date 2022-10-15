@@ -6,40 +6,38 @@ import java.util.Date
 
 
 
-var listOfItem:MutableList<String> = mutableListOf("Beverages, Bread/Bakery, Canned/Jarred Goods, Dairy," +
-        " Dry/Baking Goods, Frozen Foods, Meat, Fruits/Vegerables, Cleaners, Office Goods, Personal Care, Others")
+//You are tasked to automate an inventory system for a grocery.
+//Identify the items that can be bought in a grocery store.
+//After listing the different items, identify the characteristics of the items.
+//You are also tasked to group the items in categories to help manage the grocery.  Use the proper data types.
 
-val beverageProduct = arrayOf("Water" , "Coffee", "Milk", "Juice", "Softdrink", "Tea", "Beer", "Wine", "Tanduay", "Emperador", "Gin")
-var priceBeverage:Array<Long> = arrayOf(15, 10, 25, 20, 35, 18, 55, 68, 37, 49, 140)
-
-
-var breadBakeryProduct = arrayOf("Whole Wheat, Cookies, Tortillas, Pies, Muffins, Bagels, Cake, Cheese Rolls ")
-var cannedJarredGoods = arrayOf("Olives, Soup, Sika Tuna, Blue Bay Tuna, Corned Beef, Fruit Cocktail, Fried Sardines")
-var dairyProduct = arrayListOf<String>("Milk, Yogurt, Cheese, Soy Milk, Butter, Creamier, Cream Cheese ")
-var dryBakingGoods = arrayListOf<String>("Cereals, Flour, Sugar, Pasta, Mixes, Spaghetti, Macaroni, Noodles, White Rice, Oats, Wheat, Granola")
-var frozenProducts = arrayListOf<String>("Fish, Ice Cream, Pizza, Ready Meals, Fruits, Vegetables, Waffles")
-var meatProduct = arrayListOf<String>("Beef, Pork, Chicken, Lamb, Sausage, Tocino")
-var fruitsVegetables = arrayListOf<String>("Banana, Apple, Grapes, Oranges, Strawberries, Avocados, Pineapples, Pears, Potatoes, tomatoes, Onions, Carrots, Lettuce, Broccoli, Peppers, Celery," +
-        "Garlic, Cucumber, Kangkong, Squash, Pechay, Hoarse-raddish leaves, Raddish")
-var cleanerItems = arrayListOf<String>("Zonrox, Ariel, Pride, Bar Soaps, Chlorine")
-
+//Global Declaration of Variables
+var listOfItem:MutableList<String> = mutableListOf()
+val beverageProduct = arrayOf<String>()
+var priceBeverage:Array<Long> = arrayOf()
+var breadBakeryProduct = arrayOf<String>()
+var cannedJarredGoods = arrayOf<String>()
+var dairyProduct = arrayOf<String>()
+var dryBakingGoods = arrayOf<String>()
+var frozenProducts = arrayOf<String>()
+var meatProduct = arrayOf<String>()
+var fruitsVegetables = arrayOf<String>()
+var cleanerItems = arrayOf<String>()
 
 fun main() {
 
-
-    var itemNumber: Int = 0
-    var itemName: String = "Beer"
+           var itemNumber: Int = 0
+    var itemName: String = ""
     var expirationDate:Date
-    var quantityOfItem:Int = 900
+    var quantityOfItem:Int = 0
     var itemSold:Int ?= null
-    var itemPrice:Float = 000.000F
+    var itemPrice:Float ?= 000.000F
 
     expirationOfItem()
     priceProduct(itemName)
     itemNumberProcess(itemNumber, itemName, quantityOfItem, priceBeverage)
 
 }
-
 fun expirationOfItem(){
 
     if ( listOfItem == beverageProduct ){
@@ -147,10 +145,11 @@ fun itemNumberProcess(itemNumber:Int, itemName: String, quantityOfItem:Int, pric
     print(itemNumber)
     var itemName1 = itemName
     var itemTotal: Int = quantityOfItem
-    var itemSold: Int = 3500
+    var itemSold: Int = 0
     var itemRemains = itemTotal!!.minus(itemSold!!).toInt()
     var result:Long = 0
     var priceBeverageLong:Array<Long> = priceBeverage
+    result as Int
 
 //    Predict the product remaining in cost
     when (itemName1) {
