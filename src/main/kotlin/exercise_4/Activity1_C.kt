@@ -15,6 +15,7 @@ import java.util.Date
 var listOfItem:MutableList<String> = mutableListOf()
 val beverageProduct = arrayOf<String>()
 var priceBeverage:Array<Long> = arrayOf()
+
 var breadBakeryProduct = arrayOf<String>()
 var cannedJarredGoods = arrayOf<String>()
 var dairyProduct = arrayOf<String>()
