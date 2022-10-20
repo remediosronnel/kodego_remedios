@@ -1,5 +1,9 @@
 package Activity01_G
 
+import mu.KotlinLogging
+
+
+private val logger = KotlinLogging.logger{}
 
 //Create an application that will accept 1 string.
 //Your application will print “Palindrome” if the string is a palindrome.
@@ -16,11 +20,11 @@ fun main() {
     for(i in strInput.length - 1 downTo 0){
         if (strInput[i] == strInput[strInput.length - 1 - i]){
 
-            println("Palindrome")
+            logger.info{"Palindrome"}
 
         }
         else{
-            println("Not Palindrome")
+            logger.info{"Not Palindrome"}
         }
         break
     }
