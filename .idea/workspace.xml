@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53e45f81-d153-4997-8083-8328843cca7a" name="Changes" comment="added Activity01_F package&#10;added Main.kt in exercise_1" />
+    <list default="true" id="53e45f81-d153-4997-8083-8328843cca7a" name="Changes" comment="implementated data structures&#10;activity01_F">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Activity01_G/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,14 +53,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="Activity1_BKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise_1.Activity1_BKt" />
-      <module name="KodeGoExercises_Remedios1.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.MainKt (1)">
     <configuration name="Activity1_CKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise_1.Activity1_CKt" />
       <module name="KodeGoExercises_Remedios1.main" />
@@ -67,6 +63,13 @@
     </configuration>
     <configuration name="Activity1_DKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise_1.Activity1_DKt" />
+      <module name="KodeGoExercises_Remedios1.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Activity01_G.MainKt" />
       <module name="KodeGoExercises_Remedios1.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin script (Beta).build.gradle.kts" />
         <item itemvalue="Kotlin.Activity1_CKt" />
         <item itemvalue="Kotlin.Activity1_DKt" />
-        <item itemvalue="Kotlin.Activity1_BKt" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +409,28 @@
       <option name="project" value="LOCAL" />
       <updated>1666271287901</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="implementated data structures&#10;activity_01_F">
+      <created>1666271953191</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1666271953191</updated>
+    </task>
+    <task id="LOCAL-00045" summary="implementated data structures&#10;activity_01_F">
+      <created>1666272040701</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1666272040701</updated>
+    </task>
+    <task id="LOCAL-00046" summary="implementated data structures&#10;activity01_F">
+      <created>1666272079520</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1666272079520</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -425,6 +449,8 @@
     <MESSAGE value="added exercise 1 package&#10;added Main.kt in exercise_1" />
     <MESSAGE value="implementated data structures &#10;activity_01_F" />
     <MESSAGE value="added Activity01_F package&#10;added Main.kt in exercise_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Activity01_F package&#10;added Main.kt in exercise_1" />
+    <MESSAGE value="implementated data structures&#10;activity_01_F" />
+    <MESSAGE value="implementated data structures&#10;activity01_F" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementated data structures&#10;activity01_F" />
   </component>
 </project>
