@@ -1,7 +1,6 @@
 package Activity01_F
 import mu.KotlinLogging
-import java.util.*
-import javax.lang.model.type.IntersectionType
+
 
 private val logger = KotlinLogging.logger{}
 //Create an application that will accept 2 string inputs.
@@ -18,6 +17,7 @@ fun main() {
 
     for (i in intersArray.indices){
         logger.info{intersArray.toCharArray()[i]}
+
     }
 }
 
