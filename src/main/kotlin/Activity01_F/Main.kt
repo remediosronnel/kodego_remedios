@@ -17,7 +17,6 @@ fun main() {
 
     for (i in intersArray.indices){
         logger.info{intersArray.toCharArray()[i]}
-
     }
 }
 
