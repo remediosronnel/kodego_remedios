@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53e45f81-d153-4997-8083-8328843cca7a" name="Changes" comment="implementated data structures &#10;activity_01_F" />
+    <list default="true" id="53e45f81-d153-4997-8083-8328843cca7a" name="Changes" comment="added Activity01_F package&#10;added Main.kt in exercise_1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -392,7 +392,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666270974486</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="added Activity01_F package&#10;added Main.kt in exercise_1">
+      <created>1666271276248</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1666271276248</updated>
+    </task>
+    <task id="LOCAL-00043" summary="added Activity01_F package&#10;added Main.kt in exercise_1">
+      <created>1666271287901</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1666271287901</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -410,6 +424,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="added exercise 1 package&#10;added Main.kt in exercise_1" />
     <MESSAGE value="implementated data structures &#10;activity_01_F" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementated data structures &#10;activity_01_F" />
+    <MESSAGE value="added Activity01_F package&#10;added Main.kt in exercise_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Activity01_F package&#10;added Main.kt in exercise_1" />
   </component>
 </project>

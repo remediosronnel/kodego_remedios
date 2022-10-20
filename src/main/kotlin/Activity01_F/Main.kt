@@ -17,7 +17,7 @@ fun main() {
     var intersArray = strInputs.union(strInputs1.distinct())
 
     for (i in intersArray.indices){
-       println(intersArray.toCharArray()[i])
+        logger.info{intersArray.toCharArray()[i]}
     }
 }
 
