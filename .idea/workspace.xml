@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53e45f81-d153-4997-8083-8328843cca7a" name="Changes" comment="implementated data structures&#10;activity01_F">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Activity01_G/Main.kt" afterDir="false" />
+    <list default="true" id="53e45f81-d153-4997-8083-8328843cca7a" name="Changes" comment="implementated data structures&#10;activity01_G">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Activity01_H/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.MainKt (1)">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="Activity1_CKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise_1.Activity1_CKt" />
       <module name="KodeGoExercises_Remedios1.main" />
@@ -61,15 +61,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Activity1_DKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise_1.Activity1_DKt" />
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Activity01_G.MainKt" />
       <module name="KodeGoExercises_Remedios1.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Activity01_G.MainKt" />
+    <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Activity01_H.MainKt" />
       <module name="KodeGoExercises_Remedios1.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.MainKt (2)" />
+        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin script (Beta).build.gradle.kts" />
         <item itemvalue="Kotlin.Activity1_CKt" />
-        <item itemvalue="Kotlin.Activity1_DKt" />
       </list>
     </recent_temporary>
   </component>
@@ -430,7 +430,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666272079520</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="implementated data structures&#10;activity01_G">
+      <created>1666274926421</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1666274926421</updated>
+    </task>
+    <task id="LOCAL-00048" summary="implementated data structures&#10;activity01_G">
+      <created>1666275024975</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1666275024975</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -451,6 +465,7 @@
     <MESSAGE value="added Activity01_F package&#10;added Main.kt in exercise_1" />
     <MESSAGE value="implementated data structures&#10;activity_01_F" />
     <MESSAGE value="implementated data structures&#10;activity01_F" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementated data structures&#10;activity01_F" />
+    <MESSAGE value="implementated data structures&#10;activity01_G" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementated data structures&#10;activity01_G" />
   </component>
 </project>
