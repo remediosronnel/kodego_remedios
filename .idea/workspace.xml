@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53e45f81-d153-4997-8083-8328843cca7a" name="Changes" comment="implementated data structures&#10;activity01_G">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Activity01_I/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Activity01_G/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Activity01_G/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Activity01_I/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Activity01_I/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,14 +53,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.MainKt (1)">
-    <configuration name="Activity1_CKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise_1.Activity1_CKt" />
-      <module name="KodeGoExercises_Remedios1.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.MainKt (3)">
     <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Activity01_G.MainKt" />
       <module name="KodeGoExercises_Remedios1.main" />
@@ -71,6 +63,13 @@
     </configuration>
     <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Activity01_H.MainKt" />
+      <module name="KodeGoExercises_Remedios1.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Activity01_I.MainKt" />
       <module name="KodeGoExercises_Remedios1.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (3)" />
         <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.MainKt (2)" />
         <item itemvalue="Kotlin script (Beta).build.gradle.kts" />
-        <item itemvalue="Kotlin.Activity1_CKt" />
       </list>
     </recent_temporary>
   </component>
@@ -108,13 +107,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665057083311</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Initial Commit">
-      <created>1665057155847</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1665057155847</updated>
     </task>
     <task id="LOCAL-00002" summary="Initial Commit">
       <created>1665057183664</created>
@@ -452,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666784220528</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="implementated data structures&#10;activity01_G">
+      <created>1667318133685</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1667318133686</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
