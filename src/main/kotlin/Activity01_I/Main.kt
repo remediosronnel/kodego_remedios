@@ -40,7 +40,7 @@ fun main() {
         var bookIDNumber: Int = readlnOrNull()!!.toInt()
 
         for (entry in scienceBook) {
-            when (bookIDNumber == scienceBookkeys) {
+            when (bookIDNumber) {
                 1 -> {
                     logger.info { "Book Title: ${scienceBook.value} -> Book Number: ${scienceBook.key}" }
                 }
