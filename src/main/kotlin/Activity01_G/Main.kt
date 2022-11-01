@@ -1,6 +1,7 @@
 package Activity01_G
 
 import mu.KotlinLogging
+import javax.print.attribute.IntegerSyntax
 
 
 private val logger = KotlinLogging.logger{}
@@ -12,21 +13,18 @@ private val logger = KotlinLogging.logger{}
 //Loops
 
 fun main() {
-    var result:Boolean = true
-    var strInput = readLine()!!.toString().toLowerCase()
 
-    var strInput2 = arrayOf(strInput)
-
-    for(i in strInput.length - 1 downTo 0){
-        if (strInput[i] == strInput[strInput.length - 1 - i]){
-
-            logger.info{"Palindrome"}
-
-        }
-        else{
-            logger.info{"Not Palindrome"}
-        }
-        break
+    var strInput = readLine()!!.toString()
+    var strInput2 = arrayOf(strInput).toString()
+    if ((strInput == null) || (strInput == "")) {
+        logger.info{"You did not enter correctly"}
     }
-
+    else{
+        for (i in strInput.length - 1 downTo 0) {
+            if (strInput[i] == strInput[strInput.length - 1 - i]) {
+                logger.info { "Palindrome" }
+            } else {
+                logger.info { "Not Palindrome" }
+            }            ; break
+        }    }
 }
